@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<title>Pratik Nichite - Personal Web Page</title>
 </head>
+
 <body>
-
-
   <header>
-    <div class="container">
-      <h1>Pratik Nichite</h1>
-      <p>MCA Student | Web Developer | Tech Learner</p>
-    </div>
-  </header>
+    <h1>Welcome to My Personal Web Page</h1>
+        <img src="profile.jpg" alt="My Photo" width="150" height="150">
+   <h2>Pratik Nichite</h2>
+    <p><strong>Student | MCA | Data Science Enthusiast</strong></p>
+   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<main>
+<section>
+   <h2>About Me</h2>
+      <p>Hello! I am <strong>Pratik Nichite</strong>, currently pursuing my MCA from Kandivali.I am passionate about Data Science, Web Development, and Technology.I enjoy learning new skills and working on practical projects.</p>
+  </section> 
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m Pratik, an MCA student passionate about building simple and user-friendly web applications. 
-       I enjoy learning new technologies and continuously improving my coding skills.</p>
-  </section>
+  <section>
+     <h2>Education</h2>
+       <table border="1" width="100%">
+         <tr><th>Qualification</th>
+          <th>Institute</th>
+          <th>Year</th></tr>
 
-  <section id="skills">
+         <tr><td>MCA</td>
+         <td>Kandivali Institute</td>
+         <td>2025</td></tr>
+
+         <tr><td>B.E. (Electrical Engineering)</td>
+         <td>ARMIET College</td>
+         <td>2020</td></tr>
+        </table>
+        </section>
+
+  <section>
     <h2>Skills</h2>
-    <ul class="skill-list">
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>JavaScript</li>
-      <li>Python (Basics)</li>
-      <li>SQL</li>
+    <ul>
+       <li>Python, Java, HTML, CSS</li>
+       <li>Data Analysis and Visualization</li>
+       <li>SQL and Database Management</li>
     </ul>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Personal Portfolio</h3>
-      <p>A simple personal website to showcase my profile and projects using HTML and CSS.</p>
-    </div>
-    <div class="project-card">
-      <h3>To-Do List</h3>
-      <p>A small web app where users can add and delete daily tasks using JavaScript.</p>
-    </div>
+  <section>
+     <h2>Hobbies</h2>
+        <ul>
+         <li>Reading Tech Blogs</li> 
+         <li>Travelling</li>
+         <li>Playing Chess</li>
+      </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:pratiknichite@gmail.com">pratiknichite@gmail.com</a></p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/pratiknichite</a></p>
-  </section>
+<section>
+   <h2>Contact Me</h2>
+    <form> 
+       <label for="name">Name:</label><br>
+       <input type="text" id="name" name="name"        required><br><br>
 
-  <footer>
-    <p>© 2025 Pratik Nichite. All rights reserved.</p>
-  </footer>
+       <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+       <label for="message">Message:<label><br>
+       <textarea id="message" name="message" rows="4" cols="40" required></textarea><br>
+
+<input type="submit" value="Send Message">
+</form>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2025 Pratik Nichite. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
